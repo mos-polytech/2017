@@ -1,4 +1,5 @@
 # Infinitive loop:
+
 while True:
     users_input = input('Please, input positive number: ')
     if float(users_input) > 0:

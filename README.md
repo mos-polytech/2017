@@ -14,10 +14,10 @@ This package contains all the source code and lecture files.
 
 You will need:
 
-- Keynote
 - `python3` and `python2` for legacy purposes
 - `postgresql` version `9.6`
 - `pycharm`
+- `sublime`
 
 
 ## Chat
