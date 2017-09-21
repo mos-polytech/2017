@@ -23,3 +23,8 @@ You will need:
 ## Chat
 
 Any questions? Ask them in our [`gitter room`](https://gitter.im/sobolevn/mos-polytech).
+
+
+## Marks
+
+We track our progress in [Google Forms](https://docs.google.com/spreadsheets/d/1Q5MXKvTVWPuJ9ulgnDX4LcAejXU34vp8auTyxmLKM-A/edit?usp=sharing).
