@@ -29,6 +29,23 @@ Any questions? Ask them in our [`gitter room`](https://gitter.im/sobolevn/mos-po
 
 We track our progress in [Google Forms](https://docs.google.com/spreadsheets/d/1Q5MXKvTVWPuJ9ulgnDX4LcAejXU34vp8auTyxmLKM-A/edit?usp=sharing).
 
+### I am too smart for this!
+
+I can automatically receive the highest score
+by reaching 5000 reputation on [`SO`](https://stackoverflow.com/).
+
+Testing criteria:
+
+- Reputation should be presented in your profile with both charts
+- Reputation should be presented in your status bar
+- Reputation should be preserved after page reload
+- There must be at least one your question or answer
+- Total score on every question and answer should be almost (5%) equal to your final score
+- Domain should look like: `stackoverflow.com`
+- You should be allowed to down vote and reputation should changed
+
+### Regular score
+
 Final score is calculated by this formula:
 
 > 0.6 for your homeworks and tests
@@ -36,8 +53,8 @@ Final score is calculated by this formula:
 > 0.4 for your final exam
 >
 
-> Where your homeworks and tests are:
->
+Where your homeworks and tests are:
+
 > 0.5 for tests
 >
 > 0.5 for homeworks
