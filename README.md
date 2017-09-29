@@ -40,9 +40,9 @@ Testing criteria:
 - Reputation should be presented in your status bar
 - Reputation should be preserved after page reload
 - There must be at least one your question or answer
-- Total score on every question and answer should be almost (5%) equal to your final score
+- Total score on every question and answer should be almost equal to your final score + sum of accepted answers
 - Domain should look like: `stackoverflow.com`
-- You should be allowed to down vote and reputation should changed
+- You should be allowed to down vote and reputation should change
 
 ### Regular score
 
