@@ -32,11 +32,16 @@ We track our progress in [Google Forms](https://docs.google.com/spreadsheets/d/1
 Final score is calculated by this formula:
 
 > 0.6 for your homeworks and tests
+>
 > 0.4 for your final exam
+>
 
 > Where your homeworks and tests are:
+>
 > 0.5 for tests
+>
 > 0.5 for homeworks
+>
 
 Homeworks and tests uses percents to calculate how many tasks you passed.
 
