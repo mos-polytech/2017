@@ -85,7 +85,7 @@ Where your homeworks and tests are:
 > 0.5 for homeworks
 >
 
-Homeworks and tests uses percents to calculate how many tasks you passed.
+Homeworks and tests use percents to calculate how many tasks you have passed.
 
 ### Criteria
 
