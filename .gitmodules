@@ -1,3 +1,6 @@
 [submodule "homework-template"]
 	path = homework-template
 	url = https://github.com/mos-polytech/homework-template.git
+[submodule "hangman"]
+	path = hangman
+	url = https://github.com/mos-polytech/hangman.git
