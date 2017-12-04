@@ -110,7 +110,7 @@ You **won't receive any points** in three cases:
 Criteria:
 
 - 0 or 10 percents for code style (should match [these packages](https://github.com/wemake-services/wemake-django-template/blob/29ad5ec5482622def67d23c4d114f7af41430f3d/%7B%7Bcookiecutter.project_name%7D%7D/Pipfile)). Any style violations will result in 0%
-- 0, 5 or 10 percents for tests. 10% is awarded if test coverage is equal to 100%, 5% is awarded if coverage is less than 100%, 0% is awarded when there are no tests
+- 0, 5 or 10 percents for tests. 10% is awarded if test coverage is equal to 100%, 5% is awarded if coverage is in range `[60%, 100%)`, 0% is awarded in all other cases
 - 0 or 10 percents for [code quality](http://wemake-django-template.readthedocs.io/en/latest/_pages/template/qa.html). If your code passes `xenon --max-absolute B --max-modules A --max-average A .` you will be awarded with 10%
 - 0 or 10 percents for requirements. If your requirements are present, [safe](https://docs.pipenv.org/advanced.html#detection-of-security-vulnerabilities), and valid you will receive 10% for this
 - 0 or 10 percents for settings. If you have any issues with your settings you won't receive any points. See [settings validation](https://github.com/wemake-services/wemake-django-template/blob/master/%7B%7Bcookiecutter.project_name%7D%7D/docker/django/gunicorn.sh#L11)
