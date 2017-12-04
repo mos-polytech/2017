@@ -97,7 +97,34 @@ Homeworks and tests use percents to calculate how many tasks you have passed.
 
 ### Final exam
 
-Exam will be scored in percents as well. The criteria will be available long before the exam.
+Exam will be scored in percents as well.
+Your work will be measured with 10 different criteria.
+You can score 10% maximum for each of them.
+
+You **won't receive any points** in three cases:
+
+- you have not completed **any** of the functional tasks
+- you have used some blacklisted software
+- you have copied your work from someone else (even partly)
+
+Criteria:
+
+- 0 or 10 percents for code style (should match [these packages](https://github.com/wemake-services/wemake-django-template/blob/29ad5ec5482622def67d23c4d114f7af41430f3d/%7B%7Bcookiecutter.project_name%7D%7D/Pipfile)). Any style violations will result in 0%
+- 0, 5 or 10 percents for tests. 10% is awarded if test coverage is equal to 100%, 5% is awarded if coverage is less than 100%, 0% is awarded when there are no tests
+- 0 or 10 percents for [code quality](http://wemake-django-template.readthedocs.io/en/latest/_pages/template/qa.html). If your code passes `xenon --max-absolute B --max-modules A --max-average A .` you will be awarded with 10%
+- 0 or 10 percents for requirements. If your requirements are present, [safe](https://docs.pipenv.org/advanced.html#detection-of-security-vulnerabilities), and valid you will receive 10% for this
+- 0 or 10 percents for settings. If you have any issues with your settings you won't receive any points. See [settings validation](https://github.com/wemake-services/wemake-django-template/blob/master/%7B%7Bcookiecutter.project_name%7D%7D/docker/django/gunicorn.sh#L11)
+- 0, 5 or 10 percents for models. Everything looks good - 10%, something is not so good - 5%, cruel errors - 0%. There is no automation for this criteria
+- 0, 5 or 10 percent for admin panel. Everything looks good - 10%, something is not so good - 5%, cruel errors - 0%. There is no automation for this criteria
+- 0, 5 or 10 percents for `rest-framework`. Everything looks good - 10%, something is not so good - 5%, cruel errors - 0%. There is no automation for this criteria
+- 0 or 10 percents for REST API documentation. It should be present and valid
+- 0, 5 or 10 percents for business logic (everything else is business logic). Everything looks good - 10%, something is not so good - 5%, cruel errors - 0%. There is no automation for this criteria
+
+Bonus points:
+
+- you can receive bonus 5% for the great `README` and `travis` setup
+- you can receive bonus 10% for deploying your project to `heroku`
+- you can receive bonus 5% for automating deploy step (each successful `travis` build should deploy new version of software to `heroku`)
 
 ### Formula
 
