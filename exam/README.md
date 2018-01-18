@@ -112,7 +112,7 @@ This panel will also be used to receive information about new orders.
 No specific logic, just some basics:
 
 - Each model should be presented in the `django`'s admin panel
-- Each model should have `list_fields` defined
+- Each model should have `list_display` defined
 - Each model should have `search_fields` defined
 
 
