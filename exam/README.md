@@ -136,6 +136,16 @@ Additional requirements:
 - `djangorestframework`
 
 
+## How to submit your work
+
+`@sobolevn` will give you a flash drive to upload your project folder onto it.
+
+If you are going for extra points (`heroku`, `travis`), make sure that you have also speicified all the required link in the `README.md`.
+
+You can also upload your work to Github. 
+It won't affect the result. 
+
+
 ## Blacklisted packages
 
 You are not allowed to use any of these packages in your application:
